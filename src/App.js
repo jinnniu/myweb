@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <p>Jeong Yuu Jin</p>
+    <p>Yuu Jin, Jeong</p>
   );
 }
 
