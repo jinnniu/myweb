@@ -1,7 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Button, Progress} from 'semantic-ui-react'
+import {Button, Progress, Input} from 'semantic-ui-react'
+
+function login(){
+
+  return(
+    <div>
+    <Input/>
+    <Button Primary>LOGOGIN</Button>
+    </div>
+  )
+}
+
+
 
 function App() {
   return (
@@ -9,6 +21,7 @@ function App() {
     <p>Yuu Jin, Jeong</p>
     <Button Primary>Hi</Button>
     <Progress percent = {33} indicating>
+    <login />
     <div>
   );
 }
