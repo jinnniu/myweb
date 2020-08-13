@@ -10,7 +10,7 @@ function login(){
     <Input/>
     <Button Primary>LOGOGIN</Button>
     </div>
-  )
+  );
 }
 
 
@@ -22,7 +22,7 @@ function App() {
     <Button Primary>Hi</Button>
     <Progress percent = {33} indicating>
     <login />
-    <div>
+    </div>
   );
 }
 
